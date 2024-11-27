@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: hsl(0, 11%, 12%);
+}
+.container{
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.card{
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    
+}
+.card-header{
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 150px;
+}
+.card-body{
+    padding: 0px 15px 25px;
+}
+.img-holder{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: -50px auto  30px auto;
+}
+.img-holder img{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.name-age{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.age,
+.city,
+.meta
+{
+    font-weight: 400;   
+    opacity: .7;
+}
+.footer{
+    display: flex;
+    border-top: 1px solid  hsl(0, 3%, 86%);
+    padding: 0 25px;
+}
+.item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.value{
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+.footer .item .value{
+    letter-spacing: 1px;
+}
+.circle .c1,
+.circle .c2{
+    position: absolute;
+
+}
+.circle .c1{
+    top: -500px;
+    left: -300px;
+}
+.circle .c2{
+    bottom: -700px;
+    right: -100px;
+}
